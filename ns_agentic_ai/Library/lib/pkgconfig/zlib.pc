@@ -1,0 +1,13 @@
+prefix=D:/Agentic AI with LangGraph/Agentic-AI-with-LangGraph/ns_agentic_ai/Library
+exec_prefix=D:/Agentic AI with LangGraph/Agentic-AI-with-LangGraph/ns_agentic_ai/Library
+libdir=D:/Agentic AI with LangGraph/Agentic-AI-with-LangGraph/ns_agentic_ai/Library/lib
+sharedlibdir=D:/Agentic AI with LangGraph/Agentic-AI-with-LangGraph/ns_agentic_ai/Library/lib
+includedir=D:/Agentic AI with LangGraph/Agentic-AI-with-LangGraph/ns_agentic_ai/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
