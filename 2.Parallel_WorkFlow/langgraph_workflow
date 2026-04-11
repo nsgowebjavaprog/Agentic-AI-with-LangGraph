@@ -1,0 +1,15 @@
+digraph {
+	START
+	calculate_sr
+	calculate_bpb
+	calculate_boundary_percent
+	summary
+	END
+	START -> calculate_sr
+	START -> calculate_bpb
+	START -> calculate_boundary_percent
+	calculate_sr -> summary
+	calculate_bpb -> summary
+	calculate_boundary_percent -> summary
+	summary -> END
+}
